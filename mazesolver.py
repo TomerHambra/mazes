@@ -10,9 +10,7 @@ def check_events():
     if event.type == pg.QUIT: exit()
     if event.type == pg.KEYUP:
       if event.key == pg.K_SPACE: reset = True
-      if event.key == pg.K_r: 
-        setup()
-        solve()
+      if event.key == pg.K_r: setup(), solve()
       if event.key == pg.K_LEFT:
         alg_it = (alg_it + 1) % len(algos)
         reset = True
@@ -136,5 +134,4 @@ def main():
     pg.display.flip()
     clock.tick(144)
     
-if __name__ == '__main__':
-  main()
+main()
