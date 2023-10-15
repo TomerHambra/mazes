@@ -7,8 +7,7 @@ import gen
 def check_events():
   global reset, csv, grid, cols, rows, alg_it, algos, width, height, graph
   for event in pg.event.get():
-    if event.type == pg.QUIT:
-      exit()
+    if event.type == pg.QUIT: exit()
     if event.type == pg.KEYUP:
       if event.key == pg.K_SPACE: reset = True
       if event.key == pg.K_r: 
