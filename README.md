@@ -2,5 +2,5 @@
 ## Visualizing Graph Traversal Algorithms Using Randomly Generated Mazes
 In short: VGTAURGM
 
-## Sick Elemnts of Xylophone
+## Sick Elements of Xylophone
 In short: SEX
