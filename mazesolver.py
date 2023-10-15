@@ -137,4 +137,5 @@ def main():
     pg.display.flip()
     clock.tick(144)
     
-main()
+if __name__ == '__main__':
+  main()
